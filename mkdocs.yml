@@ -1,3 +1,85 @@
-site_name: My Docs
+site_name: Shader Library
 
-theme: slate
+nav:
+  - Home: index.md
+  - Shader Lib:
+    - Colors: shaderlib/colors.md
+    - Dissolve FX: shaderlib/dissolve.md
+
+
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+  logo: /assets/favicon.ico
+  layers:
+    - background:
+      color: "#4051b5"
+  palette:
+  # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto Mono
+    code: Fira Code
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - toc.integrate
+    # - blog  # Enables blog layout
+    - content.code.annotate
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/custom.css  # Optional custom styling
+
+extra_javascript:
+  - assets/scripts/custom.js       # Optional custom JS
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jmebia
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jmebia/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/Maiusebi
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:jm.ebia@kodeteq.com
+  generator: false
+  favicon: assets/me.png
+
+copyright: Copyright &copy; 2025 Josiah Maius S. Ebia
