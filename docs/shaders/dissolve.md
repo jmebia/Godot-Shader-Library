@@ -1,8 +1,4 @@
-# Dissolve and Fade Effects
-
-The following are shaders that erase or reveal using masks, noise, or alpha
-
-## Dissolve
+# Dissolve
 
 This dissolve shader can be used for effects like a character or object burning away, fading out, or vanishing with noise-based erosion.
 

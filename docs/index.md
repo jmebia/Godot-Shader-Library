@@ -1,7 +1,19 @@
-# Maiusebi's Godot Shader Library
+---
+hide:
+  - navigation
+  - toc
+---
 
-Hi, I am JM, a web dev and indie game dev. I created this web documentation mainly to have a central repository of shaders that I have used and/or may use in my game projects, instead of manually looking for them from my previous projects or online. 
+# Hey there, welcome to DevKit!
+
+I’m Maiusebi — an indie dev who’s spent way too many hours hunting down shaders, writing GDScript snippets, and figuring out the weird little quirks of Godot. So, I built this DevKit site: a no-fluff, all-in-one Godot developer toolkit packed with stuff I actually use.
+
+So dive in, try stuff out, steal what you want, and make your projects shine. Let’s make some awesome games — faster and a bit more fun.
 
 ---
 
-[Go to shaders :fontawesome-solid-right-to-bracket:](/shaderlib/colors){ .md-button }
+## Godot Shader Library
+
+[Go to shaders :fontawesome-solid-right-to-bracket:](shaders){ .md-button }
+
+--- 
