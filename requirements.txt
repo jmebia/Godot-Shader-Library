@@ -1,2 +1,4 @@
 mkdocs-material[emojis]>=9.5
 pymdown-extensions>=10.0
+mkdocs>=1.5
+markdown>=3.3
