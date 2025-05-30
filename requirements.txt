@@ -1,5 +1,2 @@
-mkdocs>=1.5
-mkdocs-material>=9.0
+mkdocs-material[emojis]>=9.5
 pymdown-extensions>=10.0
-python-slugify>=8.0.1
-emoji>=2.8.0
